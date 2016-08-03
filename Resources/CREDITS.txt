@@ -1,0 +1,2 @@
+"atlas.png"
+most of the parts were taken from: http://www.spriters-resource.com/arcade/arkanoid/ and packed with Sprite Sheet Packer (https://spritesheetpacker.codeplex.com/)

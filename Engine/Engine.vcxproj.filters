@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\D3D11">
+      <UniqueIdentifier>{b0d02da2-e582-4c0f-8bb6-3ad5c708139a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\third_party">
+      <UniqueIdentifier>{c02c7c18-5dbd-41ef-aeaa-d70073b452de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\third_party">
+      <UniqueIdentifier>{83e7a9b5-d5a5-4bf9-9823-005097f45be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\D3D11">
+      <UniqueIdentifier>{2957565f-0fc4-495e-8dd4-24be45eb50ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsInclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowMessagesHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSizeEventsObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IDType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3DMesh.h">
+      <Filter>Header Files\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\Renderer.h">
+      <Filter>Header Files\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\ShaderUtils.h">
+      <Filter>Header Files\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3DUtils.h">
+      <Filter>Header Files\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3DPipelineState.h">
+      <Filter>Header Files\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EPipelineStage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSLUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\stb_image.h">
+      <Filter>Header Files\third_party</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineStateData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\D3DPipelineStateData.h">
+      <Filter>Header Files\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\EShaderType.h">
+      <Filter>Header Files\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\InputLayoutHelper.h">
+      <Filter>Header Files\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderCompilationConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\BuffersHelper.h">
+      <Filter>Header Files\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11\DepthStateHelper.h">
+      <Filter>Header Files\D3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsPlatformCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\Renderer.cpp">
+      <Filter>Source Files\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\ShaderUtils.cpp">
+      <Filter>Source Files\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3DPipelineState.cpp">
+      <Filter>Source Files\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3DMesh.cpp">
+      <Filter>Source Files\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PipelineState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\stb_image.cpp">
+      <Filter>Source Files\third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\D3DPipelineStateData.cpp">
+      <Filter>Source Files\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\InputLayoutHelper.cpp">
+      <Filter>Source Files\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\BuffersHelper.cpp">
+      <Filter>Source Files\D3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11\DepthStateHelper.cpp">
+      <Filter>Source Files\D3D11</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
